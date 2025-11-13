@@ -10,15 +10,15 @@ public class App {
         System.out.println("Cap (commons-lang3): " + cap);
 
         // Uncomment after adding Gson to pom.xml:
-        // Gson gson = new Gson();
-        // String json = gson.toJson(new Msg(cap));
-        // System.out.println("JSON (gson): " + json);
+        Gson gson = new Gson();
+         String json = gson.toJson(new Msg(cap));
+         System.out.println("JSON (gson): " + json);
     }
 
     // Uncomment after adding Gson:
-    // static class Msg {
-    //     String message;
-    //     Msg(String m) { this.message = m; }
-    // }
+  static class Msg {
+       String message;
+         Msg(String m) { this.message = m; }
+     }
 }
   

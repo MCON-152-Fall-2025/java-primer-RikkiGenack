@@ -1,0 +1,38 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< edu.touro.mcon152:maven-demo >--------------------
+[INFO] Building maven-demo 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ maven-demo ---
+[INFO] Deleting /home/student/repos/primer/exercises/maven-project/target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ maven-demo ---
+[INFO] skip non existing resourceDirectory /home/student/repos/primer/exercises/maven-project/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ maven-demo ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 1 source file with javac [debug target 21] to target/classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.211 s
+[INFO] Finished at: 2025-11-13T22:22:50Z
+[INFO] ------------------------------------------------------------------------
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< edu.touro.mcon152:maven-demo >--------------------
+[INFO] Building maven-demo 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- exec:3.1.0:java (default-cli) @ maven-demo ---
+Cap (commons-lang3): Json
+JSON (gson): {"message":"Json"}
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.352 s
+[INFO] Finished at: 2025-11-13T22:22:52Z
+[INFO] ------------------------------------------------------------------------
